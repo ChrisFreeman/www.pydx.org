@@ -1,6 +1,6 @@
 \documentclass[letterpaper]{article}
 \usepackage[width=7.5in,height=10in]{geometry}
-\usepackage{booktabs,multirow,tabularx}
+\usepackage{booktabs,multirow,tabularx,longtable}
 % \usepackage[default,osfigures,scale=0.95]{opensans} %% Alternatively
 % \usepackage[T1]{fontenc}
 
@@ -12,6 +12,9 @@
 \date{\today}
 
 \def\vsep{9pt}
+\def\wsep{25pt}
+\def\xsep{42pt}
+\def\ysep{58pt}
 
 \begin{document}
 \Large
@@ -24,63 +27,66 @@
 
 \begin{center}
 \textbf{Saturday, October 10, 2015}\vskip0.25in
-\begin{tabular}{cccc}
+\begin{longtable}{cccc}
   \toprule
-  Time & Main Room & Secondary Room \\
+  Time & Room 1 & Room A\\
   \midrule\\[0pt]
-  9:00--9:05 & Introduction & \\[\vsep]
-  9:00--9:35 & Keynote & \\[\vsep]
+  9:00--9:05 & \multirow{1}{3in}{Introduction} & \\[\vsep]
+  9:00--9:35 & \multirow{2}{3in}{Keynote \\ \textit{Melissa Lewis}} & \\[\vsep] \\[\vsep]
   \midrule
-  9:40--10:20 & Talk & Tutorial \\[\vsep]
-  10:30--11:10 & Talk & \\[\vsep]
-  11:20--12:00 & Talk & \\[\vsep]
+  9:40--10:20 & \multirow{3}{3in}{A Newcomer's Guide to Open Source Contribution \\ \textit{Lacey Williams Henschel}} & \multirow{2}{3in}{Teach a New Object Old Tricks (Tutorial) \\ \textit{Kenneth Love}} \\[\xsep]
+  10:30--11:10 & \multirow{3}{3in}{Generating Poetry with Python using Prosaic \\ \textit{Nathaniel Smith}} & \\[\xsep]
+  11:20--12:00 & \multirow{4}{3in}{UX at the Command Line: Building Better User Experiences for Developer Tools \\ \textit{Amelia Abreu}} & \\[\ysep]
   \midrule
   12:00--1:00 & \multicolumn{2}{c}{Lunch} \\[\vsep]
   \midrule
-  1:10--1:50 & Talk & Tutorial \\[\vsep]
-  2:00--2:40 & Talk &  \\[\vsep]
-  2:50--3:00 & Talk &  \\[\vsep]
+  1:10--1:50 & \multirow{2}{3in}{The power of the standard library \\ \textit{Michael McHugh}} & \multirow{2}{3in}{Build a Bot Workshop (Tutorial) \\ \textit{Terian Koscik}} & \\[\wsep]
+  2:00--2:40 & \multirow{2}{3in}{Postgres + SciPy for Great Stats \\ \textit{Josh Berkus}} &  \\[\wsep]
+  2:50--3:00 & \multirow{3}{3in}{Creating a REST API with Python and Flask \\ \textit{Miguel Grinberg}} &  \\[\xsep]
+  \newpage
   \midrule
   3:30--4:00 & \multicolumn{2}{c}{Break} \\[\vsep]
   \midrule
-  4:00--4:40 & Talk & Talk \\[\vsep]
-  4:50--5:30 & Talk & Talk \\[\vsep]
+  4:00--4:40 & \multirow{2}{3in}{Writing Debuggable Code \\ \textit{Jonathan Harker}} & \multirow{3}{3in}{Selling a Home with Python, Computer Vision and Deep Learning \\ \textit{Erik Erwitt}} \\[\xsep]
+  4:50--5:30 & \multirow{2}{3in}{The Seven Righteous Fights \\ \textit{Heidi Waterhouse}} & \multirow{4}{3in}{Optimizing Life: Everyday Problems Solved with Linear Programming in Python \\ \textit{Anna Nicanorova}} \\[\ysep]
   \midrule
   5:30--6:00 & \multicolumn{2}{c}{BoF Organization} \\[\vsep]
   6pm  & \multicolumn{2}{c}{Doors close, break for BoFs} \\[\vsep]
   \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
 
 \newpage
 \begin{center}
 \textbf{Sunday, October 11, 2015}\vskip0.25in
-\begin{tabular}{cccc}
+\begin{longtable}{cccc}
   \toprule
-  Time & Main Room & Secondary Room \\
+  Time & Room 1& Room A\\
   \midrule\\[0pt]
-  9:00--9:05 & Introduction & \\[\vsep]
-  9:00--9:35 & Keynote & \\[\vsep]
+  9:00--9:05 & \multirow{1}{3in}{Introduction} & \\[\vsep]
+  9:00--9:35 & \multirow{2}{3in}{Keynote\\ \textit{Justin Abrahms}} & \\[\wsep]
   \midrule
-  9:40--10:20 & Talk & Talk \\[\vsep]
-  10:30--11:10 & Talk & Talk \\[\vsep]
-  11:20--12:00 & Talk & Talk \\[\vsep]
+  9:40--10:20 & \multirow{2}{3in}{How Python Changed My Life \\ \textit{Letta Raven}} & \multirow{3}{3in}{Type Python, Press Enter, What Happens? \\ \textit{Philip James}} \\[\xsep]
+  10:30--11:10 & \multirow{3}{3in}{Monte: Building a programming language using RPython \\ \textit{Corbin Simpson}} & \multirow{2}{3in}{Python, Geodata and Maps \\ \textit{Hannes Hapke}} \\[\xsep]
+  11:20--12:00 & \multirow{2}{3in}{Python for Evil \\ \textit{Jeremy Tanner}} & \multirow{2}{3in}{Making MIDI Music with Python \\ \textit{Evan Palmer}} \\[\wsep]
   \midrule
   12:00--1:00 & \multicolumn{2}{c}{Lunch} \\[\vsep]
   \midrule
-  1:10--1:50 & Talk & Tutorial \\[\vsep]
-  2:00--2:40 & Talk &  \\[\vsep]
-  2:50--3:00 & Talk &  \\[\vsep]
-  \midrule
+  1:10--1:50 & \multirow{2}{3in}{Search-First Writing for Non-Writers \\ \textit{Heidi Waterhouse}} & \multirow{4}{3in}{Intro to Testing and Test Automation in Python (Tutorial) \\ \textit{Christie Wilson and Michael Tom-Wing}} \\[\ysep]
+  2:00--2:40 & \multirow{3}{3in}{Ad-hoc Database Graphs with IPython \\ \textit{Josh Berkus}} &  \\[\xsep]
+  2:50--3:00 & \multirow{2}{3in}{Python as a Programming Language \\ \textit{Bart Massey}} &  \\[\wsep]
+
+\newpage
+\midrule
   3:30--4:00 & \multicolumn{2}{c}{Break} \\[\vsep]
   \midrule
-  4:00--4:40 & Talk & Talk \\[\vsep]
-  4:50--5:30 & Talk & Talk \\[\vsep]
+  4:00--4:40 & \multirow{4}{3in}{We Made the Switch! Moving to Sphinx and restructuredText for Software Documentation \\ \textit{Lois Patterson}} & \multirow{2}{3in}{Python Generators for the Mortal \\ \textit{Josh McQuiston}} & \\[\ysep]
+  4:50--5:30 & \multirow{2}{3in}{Continuing Education at Work \\ \textit{Katherine Wu}} & \multirow{3}{3in}{Working effectively with legacy code -- Python Edition \\ \textit{Scott Triglia}} \\[\xsep]
   \midrule
   5:30--6:00 & \multicolumn{2}{c}{DONE} \\[\vsep]
-  6pm  & \multicolumn{2}{c}{Doors close, you don't have to go home, but you can't stay here} \\[\vsep]
+  6pm  & \multicolumn{2}{c}{Doors close. You don't have to go home, but you can't stay here} \\[\vsep]
   \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
 
 
