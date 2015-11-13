@@ -16,7 +16,7 @@ body {
 	background-color: #ffffff;
 }
 a {
-	color: #48A3A6;
+	color: #608FE9;
 	text-decoration: none;
 	-webkit-transition: 0.25s;
 	-moz-transition: 0.25s;
@@ -26,7 +26,7 @@ a {
 	outline: 0;
 }
 a:hover {
-	color: #EF7247;
+	color: #F2BC47;
 	text-decoration: none;
 }
 h1, h2 {
@@ -52,7 +52,7 @@ sup {
 	-ms-border-radius: 8px;
 	-o-border-radius: 8px;
 	border-radius: 8px;
-	background: #48A3A6;
+	background: #608FE9;
 	color: white;
 	font-size: 16.5px;
 	text-decoration: none;
@@ -93,7 +93,7 @@ sup {
 	padding: 12px 19px 14px;
 }
 .btn.btn-primary {
-	background-color: #EF7247;
+	background-color: #F2BC47;
 }
 .btn.btn-primary:hover, .btn.btn-primary:focus {
 	background-color: #ff9966;
@@ -158,16 +158,16 @@ sup {
 	background: none;
   border-color: rgba(0, 0, 0, 0);
   border-radius: 0;
-  color: #48A3A6;
+  color: #608FE9;
   cursor: pointer;
 }
 .btn.btn-link:hover, .btn.btn-link:focus {
 	background-color: none;
-	color: #EF7247;
+	color: #F2BC47;
 }
 .btn.btn-link:active, .btn.btn-link.active {
 	background-color: none;
-	color: #EF7247;
+	color: #F2BC47;
 }
 .btn.btn-inverse {
   background-color: #393E46;
@@ -206,7 +206,7 @@ sup {
 	box-shadow: 0 0 0;
 }
 .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
-	background-color: #48A3A6;
+	background-color: #608FE9;
 	color: #FFFFFF;
 }
 /* Forms */
@@ -328,7 +328,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 }
 .top-bar .navbar .nav > li > a:hover, .top-bar.alt .navbar .nav > li > a:hover {
 	color: #FFFFFF;
-	background: #48A3A6 !important;
+	background: #608FE9 !important;
 }
 .top-bar .navbar .nav > li > a:focus, .top-bar.alt .navbar .nav > li > a:focus {
 	outline: 0;
@@ -394,7 +394,7 @@ nav select {
 	margin: 0 auto;
 	padding: 0;
 }
-#about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
+#about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #volunteer, #news, #twitter-feed, #contact, #newsletter {
 	padding: 100px 0 150px;
 	-webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
 	-moz-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
@@ -412,13 +412,13 @@ nav select {
 	padding: 60px 0;
 }
 #speakers {
-	background: #EF7247;
+	background: #F2BC47;
 }
 #schedule {
 	background: #E7EBED;
 }
 #workshops {
-	background: #F2BC47;
+	background: #9B40E3;
 }
 #venue {
 	background: url(../images/backgrounds/venue.jpg) center center no-repeat fixed;
@@ -432,10 +432,13 @@ nav select {
 	box-shadow: none;
 }
 #sponsors {
-	background: #E7EBED;
+	background: #FFFFFF;
+}
+#volunteer {
+    background: #E7EBED;
 }
 #news {
-	background: #EF7247;
+	background: #F2BC47;
 }
 #twitter-feed {
 	background: #E7EBED;
@@ -452,6 +455,8 @@ nav select {
 #map {
 	background: #4C5D67;
 	padding: 0;
+    width: 100%;
+    margin: auto;
 }
 footer {
 	background-color: #2C3840;
@@ -546,7 +551,7 @@ hr.divider-short {
 }
 .subheader h4 {
 	background-color: rgba(0, 0, 0, 0);
-	color: #48A3A6;
+	color: #608FE9;
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 700 !important;
@@ -625,13 +630,13 @@ hr.divider-short {
 	background: #FFFFFF;
 }
 .icon-wrap.color1 {
-	background: #48A3A6;
+	background: #608FE9;
 }
 .icon-wrap.color2 {
-	background: #EF7247;
+	background: #F2BC47;
 }
 .icon-wrap.color3 {
-	background: #F2BC47;
+	background: #9B40E3;
 }
 .icon-wrap.color4 {
 	background: #4C5D67;
@@ -707,7 +712,7 @@ a.icon-wrap.small {
 	width: 40px;
 }
 .icon-wrap.small.color4:hover {
-	background: #48A3A6;
+	background: #608FE9;
 }
 /* Social Icons */
 .social a.icon-wrap i {
@@ -816,25 +821,25 @@ a.instagram:hover {
 	font-weight: 800;
 	line-height: 1;
 	margin: 10px 0 20px;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	text-transform: none;
 }
 .jumbotron h2 {
 	font-size: 60px;
 	line-height: 1;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 .jumbotron h3 {
 	font-size: 48px;
 	font-weight: 400;
 	line-height: 1.1;
-	text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	text-shadow: 0 0 8px rgba(0, 0, 0, 1);
 }
 .jumbotron h4 {
 	font-size: 32px;
 	font-weight: 400;
 	line-height: 1.1;
-	text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	text-shadow: 0 0 8px rgba(0, 0, 0, 1);
 }
 .jumbotron .info {
 	margin: 30px auto 0;
@@ -1024,7 +1029,7 @@ a.instagram:hover {
 	transition: all 0.4s ease-in-out;
 }
 .share-widget > a:hover {
-	color: #48A3A6;
+	color: #608FE9;
 }
 /* Entry */
 .entry-title {
@@ -1487,14 +1492,14 @@ a.instagram:hover {
 	transition: all 0.4s ease-in-out;
 }
 .timeline-icon-container {
-	background: #EF7247; /* Old browsers */
-	/*background: -moz-linear-gradient(top, #EFEFEF 1%, #EF7247 100%); /* FF3.6+ */
-	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #EFEFEF), color-stop(100%, #EF7247)); /* Chrome,Safari4+ */
-	/*background: -webkit-linear-gradient(top, #EFEFEF 1%, #EF7247 100%); /* Chrome10+,Safari5.1+ */
-	/*background: -o-linear-gradient(top, #EFEFEF 1%, #EF7247 100%); /* Opera 11.10+ */
-	/*background: -ms-linear-gradient(top, #EFEFEF 1%, #EF7247 100%); /* IE10+ */
-	/*background: linear-gradient(to bottom, #EFEFEF 1%, #EF7247 100%); /* W3C */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFEFEF', endColorstr='#EF7247', GradientType=0 ); /* IE6-9 */
+	background: #F2BC47; /* Old browsers */
+	/*background: -moz-linear-gradient(top, #EFEFEF 1%, #F2BC47 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #EFEFEF), color-stop(100%, #F2BC47)); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, #EFEFEF 1%, #F2BC47 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, #EFEFEF 1%, #F2BC47 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, #EFEFEF 1%, #F2BC47 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom, #EFEFEF 1%, #F2BC47 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFEFEF', endColorstr='#F2BC47', GradientType=0 ); /* IE6-9 */
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -1953,4 +1958,22 @@ a.instagram:hover {
  padding: 20px 50px 0;
  width: 200px;
 }
+}
+
+.tito-wrapper input[type="text"] {
+	margin-top: 10px;
+	font-weight: normal;
+	padding: 0 0 0 6px;
+	min-height: 30px;
+	font-size: 14px;
+}
+
+/* tito overrides */
+.tito-discount-code-label {
+	display: block;
+	padding: 10px;
+}
+
+.tito-discount-code-field {
+	margin-top: 10px;
 }
