@@ -1,0 +1,5 @@
+deployment:
+  master:
+    branch: master
+    commands:
+      - aws s3 sync HTML/ s3://pydx.org/ --region us-west-2 --acl public-read
