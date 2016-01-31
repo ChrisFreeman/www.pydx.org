@@ -1,3 +1,7 @@
+test:
+  override:
+    - echo
+
 deployment:
   master:
     branch: master
