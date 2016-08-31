@@ -1960,26 +1960,13 @@ a.instagram:hover {
 }
 }
 
-.tito-wrapper input[type="text"] {
-	margin-top: 10px;
-	font-weight: normal;
-	padding: 0 0 0 6px;
-	min-height: 30px;
-	font-size: 14px;
-}
-
 /* tito overrides */
-.tito-discount-code-label {
-	display: block;
-	padding: 10px;
+.tito-wrapper {
+		background-color: #eee;
 }
 
-.tito-discount-code-field {
-	margin-top: 10px;
-}
-
-.resfest-logo {
-	margin: 20px;
+.tito-discount-tabs-wrapper {
+		margin-left: 20px;
 }
 
 .donate {
